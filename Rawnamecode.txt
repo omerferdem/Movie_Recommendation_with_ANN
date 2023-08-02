@@ -1,0 +1,239 @@
+film_list = np.array([['The Shawshank Redemption'],\
+    ['The Godfather'],\
+['The Gotfather: Part II'],\
+['12 Angry Men'],\
+['Schindler\'s List'],\
+['The Lord of the Rings: The Return of the King'],\
+['The Good, The Bad and The Ugly'],\
+['Fight Club'],\
+['Forrest Gump'],\
+['Inception'],\
+['The Lord of the Rings: The Two Towers'],\
+['Star Wars: Episode V - The Empire Strikes Back'],\
+['Goodfellas'],\
+['One Flew Over the Cuckoo\'s Nest'],\
+['Seven Samurai'],\
+['Se7en'],\
+['Life Is Beautiful'],\
+['City of God'],\
+['The Silence of the Lambs'],\
+['It\'s a Wonderful Life'],\
+['Star Wars'],\
+['Saving Private Ryan'],\
+['Spirited Away'],\
+['The Green Mile'],\
+['Parasite'],\
+['Léon'],\
+['The Usual Suspects'],\
+['Harakiri'],\
+['Back to the Future'],\
+['Terminator : Judgment Day'],\
+['American History X'],\
+['Modern Times'],\
+['Psycho'],\
+['City Lights'],\
+['The Departed'],\
+['The Intouchables'],\
+['Whiplash'],\
+['Grave of the Fireflies'],\
+['Once Upon a Time in the West'],\
+['Casablanca'],\
+['Cinema Paradiso'],\
+['Rear Window'],\
+['Hamilton'],\
+['Apocalypse Now'],\
+['Memento'],\
+['The Great Dictator'],\
+['Raiders of the Lost Ark'],\
+['The Lives of Others'],\
+['Paths of Glory'],\
+['WALL-E'],\
+['The Shining'],\
+['Sunset Blvd.'],\
+['Witness for the Prosecution'],\
+['Oldboy'],\
+['Princess Mononoke'],\
+['Spider-Man: Into the Spider-Verse'],\
+['Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb'],\
+['The Dark Knight Rises'],\
+['Once Upon a Time in America'],\
+['Aliens'],\
+['Your Name'],\
+['American Beauty'],\
+['Braveheart'],\
+['Das Boot'],\
+['3 Idiots'],\
+['Capharnaüm'],\
+['Toy Story'],\
+['High and Low'],\
+['Amadeus'],\
+['Inglourious Basterds'],\
+['Good Will Hunting'],\
+['Reservoir Dogs'],\
+['2001: A Space Odyssey'],\
+['Requiem for a Dream'],\
+['Vertigo'],\
+['M – A City Searches for a Murderer'],\
+['The Hunt'],\
+['Eternal Sunshine of the Spotless Mind'],\
+['Citizen Kane'],\
+['Dangal'],\
+['Full Metal Jacket'],\
+['The Bicycle Thief'],\
+['Singin\' in the Rain'],\
+['The Kid'],\
+['North by Northwest'],\
+['1917'],\
+['Snatch'],\
+['A Clockwork Orange'],\
+['Scarface'],\
+['Ikiru'],\
+['Taxi Driver'],\
+['Come and See'],\
+['Toy Story'],\
+['Lawrence of Arabia'],\
+['Amélie'],\
+['The Sting'],\
+['A Separation'],\
+['Incendies'],\
+['Metropolis'],\
+['For a Few Dollars More'],\
+['The Apartment'],\
+['Double Indemnity'],\
+['To Kill a Mockingbird'],\
+['Up'],\
+['Indiana Jones and the Last Crusade'],\
+['Heat'],\
+['L.A. Confidential'],\
+['Die Hard'],\
+['Green Book'],\
+['Monty Python and the Holy Grail'],\
+['Yojimbo'],\
+['Batman Begins'],\
+['Rashomon'],\
+['Downfall'],\
+['Children of Heaven'],\
+['Unforgiven'],\
+['Ran'],\
+['Howl\'s Moving Castle'],\
+['All About Eve'],\
+['A Beautiful Mind'],\
+['Casino'],\
+['The Great Escape'],\
+['The Wolf of Wall Street'],\
+['Pan\'s Labyrinth'],\
+['The Secret in Their Eyes'],\
+['There Will Be Blood'],\
+['Lock, Stock and Two Smoking Barrels'],\
+['My Neighbor Totoro'],\
+['Raging Bull'],\
+['Judgment at Nuremberg'],\
+['The Treasure of the Sierra Madre'],\
+['Dial M for Murder'],\
+['Three Billboards Outside Ebbing Missouri'],\
+['Shutter Island'],\
+['The Gold Rush'],\
+['Chinatown'],\
+['My Father and My Son'],\
+['No Country for Old Men'],\
+['V for Vendetta'],\
+['Inside Out'],\
+['The Seventh Seal'],\
+['The Elephant Man'],\
+['The Thing'],\
+['Warrior'],\
+['The Sixth Sense'],\
+['Trainspotting'],\
+['Jurassic Park'],\
+['Klaus'],\
+['The Truman Show'],\
+['Gone with the Wind'],\
+['Finding Nemo'],\
+['Blade Runner'],\
+['Stalker'],\
+['Soul'],\
+['Memories of Murder'],\
+['The Bridge on the River Kwai'],\
+['Fargo'],\
+['Room'],\
+['The Third Man'],\
+['Gran Torino'],\
+['Wild Tales'],\
+['On the Waterfront'],\
+['Tokyo Story'],\
+['The Deer Hunter'],\
+['In the Name of the Father'],\
+['Autumn Sonata'],\
+['Mary and Max'],\
+['The Grand Budapest Hotel'],\
+['Gone Girl'],\
+['Before Sunrise'],\
+['Hacksaw Ridge'],\
+['Catch Me If You Can'],\
+['Andhadhun'],\
+['Persona'],\
+['Prisoners'],\
+['The Big Lebowski'],\
+['To Be or Not to Be'],\
+['Sherlock Jr.'],\
+['The General'],\
+['How to Train Your Dragon'],\
+['Ford v Ferrari'],\
+['Eskiya'],\
+['Barry Lyndon'],\
+['12 Years a Slave'],\
+['Mr. Smith Goes to Washington'],\
+['Mad Max: Fury Road'],\
+['Million Dollar Baby'],\
+['Network'],\
+['Dead Poets Society'],\
+['Stand by Me'],\
+['Harry Potter and the Deathly Hallows: Part 2'],\
+['Time of the Gypsies'],\
+['Ben-Hur'],\
+['Cool Hand Luke'],\
+['Hachi: A Dog\'s Tale'],\
+['Platoon'],\
+['The Handmaiden'],\
+['Into the Wild'],\
+['The Wages of Fear'],\
+['Rush'],\
+['Life of Brian'],\
+['The 400 Blows'],\
+['Spotlight'],\
+['The Passion of Joan of Arc'],\
+['La Haine'],\
+['Hotel Rwanda'],\
+['Love\'s a Bitch'],\
+['Andrei Rublev'],\
+['Rocky'],\ 
+['Gangs of Wasseypur'],\
+['Nausicaä of the Valley of the Winds'],\
+['Rebecca'],\
+['Rififi'],\
+['Rang De Basanti'],\
+['Before Sunset'],\
+['Vikram Vedha'],\
+['In the Mood for Love'],\
+['Paris, Texas'],\
+['Portrait of a Lady on Fire'],\
+['It Happened One Night'],\
+['The Invisible Guest'],\
+['The Help'],\
+['The Battle of Algiers'],\
+['Drishyam'],\
+['Fanny and Alexander'],\
+['A Silent Voice'],\
+['Planet Earth II'],\
+['Making a Murderer'],\
+['Wild Wild Country'],\
+['The Vietnam War'],\
+['Piper'],\
+['The Punisher: Dirty Laundry'],\
+['Day & Night'],\
+['Vincent']])
+nameList = []
+for data in film_list:
+    data = data.reshape(1,1)
+    nameList.append(data)
+saveData(nameList,"name_list.pkl")
